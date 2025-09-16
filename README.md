@@ -115,6 +115,8 @@ A comprehensive stakeholder presentation, summarizing the key insights. View the
 │   ├── 4. Patterns & Seasonality.sql
 │   ├── 5. Product Analysis.sql
 │   ├── 6. User Analysis.sql
+│   ├── 7. End of First Year Analysis.sql
+│   ├── 8. End of Third Year Analysis.sql
 │
 │   ├── DAX_measures.md
 │   ├── Presentation.pptx
