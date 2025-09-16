@@ -53,7 +53,7 @@ The project follows analysis and optimization of marketing channels, measuring a
 <br>
 
 ⚙️ DAX calculations:
-  - Sample of Measures (Check out [here](./path/to/your/report.pdf) for complete list of DAX measures):
+  - Sample of Measures (Check out [here](https://github.com/M-Taha-98/eCommerce-Web-Analytics-using-Advanced-SQL/blob/main/DAX_measures.md) for complete list of DAX measures):
 ```
  - Average order value = 
 
@@ -85,7 +85,7 @@ RETURN
 
 
 ## 📃 Business Reporting
-An in-depth project report has been created, detailing the findings and business recommendations. Please see the full report [here](./path/to/your/report.pdf) for a complete analysis.
+An in-depth project report has been created, detailing the findings and business recommendations. Please see the full report [here](https://github.com/M-Taha-98/eCommerce-Web-Analytics-using-Advanced-SQL/blob/main/Project%20Report_Advanced%20SQL.pdf) for a complete analysis.
 
 <div align="center">
 <img width="658" height="552" alt="image" src="https://github.com/M-Taha-98/eCommerce-Web-Analytics-using-Advanced-SQL/blob/main/snippets/report%20snap.png" />
@@ -94,7 +94,7 @@ An in-depth project report has been created, detailing the findings and business
 <br>
 
 ## 📊 Stakeholder Presentation
-A comprehensive stakeholder presentation, summarizing the key insights. View the full slide deck [here](./path/to/your/presentation.pdf) for the complete overview.
+A comprehensive stakeholder presentation, summarizing the key insights. View the full slide deck [here](https://github.com/M-Taha-98/eCommerce-Web-Analytics-using-Advanced-SQL/blob/main/Presentation.pptx) for the complete overview.
 
 <div align="center">
 <img width="658" height="552" alt="image" src="https://github.com/M-Taha-98/eCommerce-Web-Analytics-using-Advanced-SQL/blob/main/snippets/presentation%20snap.png" />
@@ -116,15 +116,15 @@ A comprehensive stakeholder presentation, summarizing the key insights. View the
 │   ├── 5. Product Analysis.sql
 │   ├── 6. User Analysis.sql
 │
+│   ├── DAX_measures.md
 │   ├── Presentation.pptx
 │   ├── Project Report_Advanced SQL.pdf
-│
 │
 │── README.md
 
 ```
 
-📌 **Check out the SQL scripts, report and presentation to explore the analysis in detail!**  
+📌 **Check out the complete [SQL scripts](https://github.com/M-Taha-98/eCommerce-Web-Analytics-using-Advanced-SQL/tree/main/sql-scripts), report and presentation to explore the analysis in detail!**  
 
 ___
 
