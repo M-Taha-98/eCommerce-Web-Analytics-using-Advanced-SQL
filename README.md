@@ -51,7 +51,7 @@ The project follows analysis and optimization of marketing channels, measuring a
 <br>
 
 ⚙️ DAX calculations:
-  - Sample of Measures (Check out for complete list of DAX measures):
+  - Sample of Measures (Check out [here](./path/to/your/report.pdf) for complete list of DAX measures):
 ```
  - Average order value = 
 
@@ -82,11 +82,14 @@ RETURN
 ```
 
 
-## 📃 Project Report
+## 📃 Business Reporting
+An in-depth project report has been created, detailing the findings and business recommendations. Please see the full report [here](./path/to/your/report.pdf) for a complete analysis.
 
+<div align="center">
+<img width="658" height="552" alt="image" src="https://github.com/M-Taha-98/eCommerce-Web-Analytics-using-Advanced-SQL/blob/main/snippets/report%20snap.png" />
+</div>
 
-
-
+<br>
 
 ## 📂 Repository Structure  
 ```
