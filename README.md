@@ -13,7 +13,7 @@ The project follows analysis and optimization of marketing channels, measuring a
 
 ✅ **SQL Queries & Optimization** - Leveraged advanced SQL for in-depth data analysis, utilizing techniques such as CTEs for query simplification, temp tables for intermediate result staging, and data programs to building complex workflows.
 
-✅ **Excel Data Model & Power Pivot** – Build data model in Excel, and used pivot and charts to analyze and summarize business performance metrics. 
+✅ **Excel Data Model & Power Pivot** – Build data model in Excel by connecting to SQL database, used power pivot and charts to analyze and summarize business performance metrics. 
 
 ✅ **Business Reporting** – Thourough reporting of business growth and peformance metrics over three years of operation, with key insights and recommendations.
 
@@ -42,7 +42,49 @@ The project follows analysis and optimization of marketing channels, measuring a
 - Studied repeat visitors and customer segmentation.  
 - Identified high-value customers and their traffic sources.
 
-## Excel Data Modelling
+## Excel Data Model
+
+<div align="center">
+<img width="658" height="552" alt="image" src="https://github.com/M-Taha-98/eCommerce-Web-Analytics-using-Advanced-SQL/blob/main/snippets/data%20model%20snap.png" />
+</div>
+
+<br>
+
+⚙️ DAX calculations:
+  - Sample of Measures (Check out for complete list of DAX measures):
+```
+ - Average order value = 
+
+DIVIDE(SUM('mavenfuzzyfactory orders'[price_usd]), [orders])
+
+ - Average revenue per session =
+
+VAR revenue =
+  CALCULATE(
+  	SUM('mavenfuzzyfactory orders'[price_usd]), 
+  	CROSSFILTER('mavenfuzzyfactory website_pageviews'[website_session_id], 'mavenfuzzyfactory orders'[website_session_id] , Both),
+  	USERELATIONSHIP( 'mavenfuzzyfactory website_pageviews'[website_session_id], 'mavenfuzzyfactory orders'[website_session_id])
+  	)
+
+RETURN 
+  DIVIDE(revenue, [sessions])
+
+- Brand Conversion Rate = 
+
+VAR brand_sessions = 
+  CALCULATE(
+       DISTINCTCOUNT('mavenfuzzyfactory website_sessions'[website_session_id]),
+       'mavenfuzzyfactory website_sessions'[utm_campaign] = "brand"
+  )
+
+RETURN 
+  DIVIDE([brand_order_count], brand_sessions)
+```
+
+
+## 📃 Project Report
+
+
 
 
 
